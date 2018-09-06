@@ -1,0 +1,98 @@
+/* CSS for Three_Grades*/
+
+
+h1 {
+
+	text-weight: bold;
+	display: block;
+	text-align: center;
+	font: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFF00;                 /* This is for the Gradebook's title*/
+}
+
+/*#Grade_1 h2 {
+
+	text-weight: normal;
+	/*text-align: left;*/
+	font: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*left: 100px;*/
+}*/
+
+Grade1 {
+
+	/* Here I treat Grade1 as a block*/
+
+	/*display: block;
+	position: relative;*/
+	/*left: 600px;*/
+	color: #FFFF00;
+	text-weight: normal;
+	/*font: 12px;*/
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+/*#Grade_2 h2 {
+
+	/* the header of Grade_2*/
+	text-weight: normal;
+	font: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}*/
+
+#Grade_2 {
+
+	/* Grade_2 treated as a block*/
+	
+	display: block;
+	position: relative;
+	left: 600px;
+}
+
+/*#Grade_3 h2 {
+
+	/* the header of Grade_3 */
+	text-weight: normal;
+	font: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}*/
+
+#Grade_3 {
+
+	/* Grade_3 treated as a block*/
+	display: block;
+	position: relative;
+	left: 600px;
+}
+
+/*#Average h2 {
+
+	/* the header of Average*/
+	text-weight: normal;
+	font: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}*/
+
+#Average {
+
+	/* Average treated as a block */
+	display: block;
+	position: relative;
+	left: 600px;
+}
+
+#Your_Letter_Grade {
+
+	display: block;
+	position: relative;
+	/*left: 600px;*/
+}
+
+/* How's about we get a nice background for the website??*/
+
+body{
+
+	background-image:url(images/sunset.jpg);
+}

@@ -1,0 +1,77 @@
+/* CSS file for Calculator*/
+
+body {
+
+	background-color: #989898;
+}
+
+/* the actual grid that will be the calculator*/
+
+#background {
+
+	/* it seems like it's supposed to turn blue and green...I suppose I'll keep it
+	blue for now and then I'll find out if CSS has a functionality that can switch
+	from one color to the other.*/
+
+	background-color: #0000FF;  /* blue background*/
+	display: block;
+	position: relative;
+	text-align: center;  /* there is no text yet, but just to see if it aligns...this
+				actually aligned everything in the middle*/
+	left: 700px;
+	width: 200px;
+	height: 210px;   /* not sure if too big yet...*/
+
+	padding-top: 10px;
+
+	
+}
+
+#screen1 {
+
+	text-align: right;   //this got the input to be aligned at the right! :)
+}
+
+/*#screen {
+
+	background-color: #000000;
+	display: block;
+	position: relative;
+	left: 25px;
+	top: 25px;   /* to move it a bit down where it's supposed to be on the 			calculator.*/
+
+	width: 450px;
+	height: 50px;
+}*/
+
+/*#buttons {
+
+	/* I've got to find out how many buttons there are on a basic calculator...*/
+	/* There is add, subtract, multiply, divide, memory clear, positive/negative*/
+	/* In short, 6 buttons and then the numbers 0-9, so 16 buttons in total.*/
+
+	
+	/* memory clear button*/
+	background-color: #000000;
+	display: block;
+	position: relative;
+	left: -175px;               /* moving it to the right*/
+	top: 0px;
+	color: white;  /* need the css code for this.*/
+	text-align: center;
+	margin: auto;
+	padding: auto;  /* Gotta research these last two lines just in case.*/
+	width: 100px;
+	length: 100px;  /* Each button would be square-shaped, I believe */
+	
+
+	/* actually, what if I create rows of buttons at a time?? Not sure if it would
+	work, but I suppose it's worth a shot for now until I find something on how
+	to create a calculator code...or for now I might just do individual buttons.*/
+
+		
+}*/
+
+
+
+

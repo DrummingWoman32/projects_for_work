@@ -1,0 +1,105 @@
+<!-- calculator program for Monday, 10/9-->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<title>Calculator</title>
+
+		<script type="text/javascript" src="javascript.js">
+
+		</script>
+
+	</head>
+
+<body>
+
+	
+	<header role="banner">
+
+		
+
+	</header>
+
+	<form name="calculator">
+		<div id="background">
+
+			<div id="screen">
+
+				<input type="textfield" id="screen1" name="ans" value="">
+
+			</div>
+
+			<br>
+
+		
+			<div id="first_row_buttons">
+			
+				<input type="reset" value="MC">
+				<!--<input button type="button" value="MC" onclick="document.calculator.ans.value=" ">-->
+				<input button type="button" value="7" onclick="document.calculator.ans.value+='7'">
+				<input button type="button" value="8" onclick="document.calculator.ans.value+='8'">
+				<input button type="button" value="9" onclick="document.calculator.ans.value+='9'">
+				<input button type="button" value="/" onclick="document.calculator.ans.value+='/'">
+
+				<!-- buttons of first row-->
+				
+			</div>
+	
+			<br>
+
+			<div id="second_row_buttons">
+
+				<input button type="button" value="4" onclick="document.calculator.ans.value+='4'">
+				<input button type="button" value="5" onclick="document.calculator.ans.value+='5'">
+				<input button type="button" value="6" onclick="document.calculator.ans.value+='6'">
+				<input button type="button" value="*" onclick="document.calculator.ans.value+='*'">
+				<input button type="button" value="+/-" onclick="document.calculator.ans.value=(document.calculator.ans.value * (-1))">
+
+				<!-- second row buttons -->
+			</div>
+
+			<br>
+
+			<div id="third_row_buttons">
+			
+				<input button type="button" value="1" onclick="document.calculator.ans.value+='1'">
+				<input button type="button" value="2" onclick="document.calculator.ans.value+='2'">
+				<input button type="button" value="3" onclick="document.calculator.ans.value+='3'">
+				<input button type="button" value="-" onclick="document.calculator.ans.value+='-'">
+				<input button type="button" value="sqrt" onclick="document.calculator.ans.value=sqrt(document.calculator.ans.value)">
+
+				<!-- third row buttons -->
+			</div>
+
+			<br>
+
+			<div id="fourth_row_buttons">
+
+				<input button type="button" value="0" onclick="document.calculator.ans.value+='0'">
+				<input button type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+				<input button type="button" value="+" onclick="document.calculator.ans.value+='+'">
+				<input button type="button" value="%" onclick="document.calculator.ans.value=percentage(document.calculator.ans.value)">
+
+				<!-- fourth row buttons --> 
+				
+			</div>
+		</div>
+	</form>
+
+	<footer>
+
+	</footer>
+
+
+
+
+</body>
+
+
+
+</html>
